@@ -1,6 +1,4 @@
-using System;
 using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HexGridObject : MonoBehaviour
