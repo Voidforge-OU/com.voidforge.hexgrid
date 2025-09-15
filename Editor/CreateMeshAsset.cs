@@ -3,6 +3,7 @@ using UnityEditor;
 
 public class CreateMeshAsset
 {
+#if UNITY_EDITOR	
 	
 	[MenuItem("Assets/Create/HexGrid cell mesh")]
 	public static void CreateAsset() {
@@ -17,4 +18,6 @@ public class CreateMeshAsset
 			AssetDatabase.SetMainObject(mesh, fileName);
  */		}
 	}
+	
+#endif
 }
